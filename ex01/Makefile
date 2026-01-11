@@ -1,10 +1,11 @@
-NAME = Megaphone
+NAME = Awesome_PhoneBook
 
 CC = c++
 
-CFLAGS = -Wall -Wextra -Werror -std=c++98
+CFLAGS =  -std=c++98
+# CFLAGS = -Wall -Wextra -Werror -std=c++98
 
-SRCS = megaphone.cpp
+SRCS = main.cpp PhoneBook.cpp Contact.cpp utils.cpp
 
 OBJS = $(SRCS:.cpp=.o)
 
