@@ -6,7 +6,7 @@
 /*   By: anktiri <anktiri@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/06 17:10:10 by anktiri           #+#    #+#             */
-/*   Updated: 2026/01/11 22:49:47 by anktiri          ###   ########.fr       */
+/*   Updated: 2026/01/12 20:29:29 by anktiri          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,7 +36,6 @@ int main()
 			break;
 		else if (upper.empty())
 			std::cout << "Invalid command. Use: ADD, SEARCH, or EXIT" << std::endl;
-		phonebook.print_all();
 	}
 	std::cout << "Goodbye!" << std::endl;
 	return 0;

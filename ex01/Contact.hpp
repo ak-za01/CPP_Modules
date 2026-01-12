@@ -6,7 +6,7 @@
 /*   By: anktiri <anktiri@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/06 17:06:37 by anktiri           #+#    #+#             */
-/*   Updated: 2026/01/11 22:50:49 by anktiri          ###   ########.fr       */
+/*   Updated: 2026/01/12 20:31:55 by anktiri          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,6 +15,7 @@
 # define CONTACT_HPP
 
 #include <iostream>
+#include <iomanip>
 
 
 class Contact
