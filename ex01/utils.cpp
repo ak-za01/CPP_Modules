@@ -6,14 +6,15 @@
 /*   By: anktiri <anktiri@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/11 18:26:46 by anktiri           #+#    #+#             */
-/*   Updated: 2026/01/11 21:37:21 by anktiri          ###   ########.fr       */
+/*   Updated: 2026/01/13 17:13:49 by anktiri          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "PhoneBook.hpp"
 
 std::string to_uppercase(std::string str){
-	for (int i = 0; i < str.length(); i++){
+	int	lenght = (int)(str.length());
+	for (int i = 0; i < lenght; i++){
 		str[i] = (char)(std::toupper(str[i]));
 	}
     return str;
